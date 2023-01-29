@@ -27,5 +27,23 @@ font-weight: bold;
     text-decoration: none;
     color: white;
     padding: 8px 25px;
-    transition: all .5s ease;
+    transition: all .3s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px white;
+}
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    position:absolute;
+    top: 0;
+    right: 0;
+    background: url('brad-morgan-1267 1.png')
+
 }
