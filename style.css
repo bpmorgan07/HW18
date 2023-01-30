@@ -47,6 +47,7 @@ font-weight: bold;
     color: white;
 }
 #home::before{
+    display: flex;
     content: "";
     position:absolute;
     top: 100;
@@ -98,13 +99,15 @@ flex-direction: column;
 box-sizing: border-box;
 padding: 20px;
 width:33%
+
 }
 #pic{
     display: flex;
 }
 #pic img{
-    width: 575px;
-    height:400px
+    width: 400px;
+    height:300px;
+    max-width: 400px;
 }
 #intro{
     display: flex;
@@ -198,5 +201,13 @@ width:33%
         margin: 0px 5%;
         display: grid;
         grid-template-rows: 300px 300px 300px;
-    }}
+    }
+    #img {
+        margin: 0px 5%;
+        display: grid;
+        grid-template-rows: 300px 300px 300px;
+    }
+
+
+}
     
